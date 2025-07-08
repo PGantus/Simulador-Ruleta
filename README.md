@@ -26,12 +26,12 @@ chmod +x ruleta.sh
 
 ## 🚀 Uso 
 
-Ejemplo:
+**Ejemplo:**
 ```bash
 ./ruleta.sh -m 100 -t Martingala
 ```
 
-### Parámetros:
+**Parámetros:**
 -m: Monto de dinero inicial.
 
 -t: Técnica a usar (Martingala o InverseLabrouchere).
