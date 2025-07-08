@@ -312,7 +312,7 @@ function inverselabrouchere(){
 			fi
 		else
 
-			echo -e "\n${RED}[!] TE QUEDASTE SIN PLATA JAJAJAJA${END}\n"
+			echo -e "\n${RED}[!] Te quedaste sin dinero ${END}\n"
 			echo -e "${PURPLE}[+]${END}${GRAY} Jugaste un total de ${END}${BLUE}$(($play_counter-1))${END}${GRAY} veces${END}"
                         echo -e "\n${PURPLE}[+]${END}${GRAY} La mayor cantidad de dinero que obtuviste fue:${END}${BLUE} \$$max_money${END}"
 			tput cnorm; exit 1
