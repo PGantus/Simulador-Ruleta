@@ -112,7 +112,7 @@ function martingala(){
 
 			fi
 		else # No hay plata
-			echo -e "\n${RED}[!] TE QUEDASTE SIN PLATA JAJAJAJA${END}\n"
+			echo -e "\n${RED}[!] Te quedaste sin dinero${END}\n"
 			echo -e "${PURPLE}[+]${END}${GRAY} Jugaste un total de ${END}${BLUE}$(($play_counter-1))${END}${GRAY} veces${END}"
 			echo -e "\n${PURPLE}[+]${END}${GRAY} A continuación se van a mostrar las jugadas malas consecutivas que hicieron que pierdas:${END}"
 			echo -e "${BLUE}$jugadas_malas]${END}"
