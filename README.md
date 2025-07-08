@@ -32,6 +32,7 @@ chmod +x ruleta.sh
 ```
 
 **Parámetros:**
+
 -m: Monto de dinero inicial.
 
 -t: Técnica a usar (Martingala o InverseLabrouchere).
